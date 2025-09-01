@@ -8,10 +8,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-.logo img{
+ .banner .logo img{
     width: 100px;
 }
-.main{
+.banner .main{
     background: url(../images/WhatsApp\ Image\ 2025-08-31\ à\ 11.03.10_6afbae8a.jpg);
     width: 100%;
     background-repeat: no-repeat;
@@ -20,13 +20,13 @@
     position: relative;
     min-height: 100vh;
 }
-.hero{
+.banner .hero{
      align-items: center;
     display: flex;
     height: 100vh;
     
 }
-.contain{
+.banner .contain{
     flex: 0.55;
     padding-left: 50px;
     padding-top: 0;
@@ -34,14 +34,14 @@
     line-height: 1.6;
     padding-top: 0;
 }
-.header{
+.banner .header{
     display: flex;
     padding: 20px 60px;
     justify-content: space-between;
    position: static; 
    padding-bottom: 0;
 }
-.navbar{
+.banner .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,21 +56,21 @@
     margin: 20px ;
     width: fit-content;
 }
-.navlink{
+.banner .navlink{
     display: flex;
     gap: 30px;
     margin: 0;
     padding: 0px;
 
 }
-.navlink a{
+.banner .navlink a{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 500;
     transition: 0.3s;
     
 }
-.order{
+.banner .order{
     background: rgb(0, 159, 0);
     color: rgb(255, 255, 255);
     padding: 13px 20px;
@@ -81,16 +81,16 @@
     cursor: pointer;
     font-weight: bold;
 }
-h1, p,button{
+.banner h1, .banner p, .banner button{
     margin-bottom: 10px;
 }
-h1{
+.banner h1{
     font-size: 40px;
 }
-span{
+.banner span{
     color: green;
 }
-button {
+.banner button {
     background: green;
     color: rgb(255, 255, 255);
     padding: 13px 20px;
@@ -104,7 +104,7 @@ button {
     border-style: none;
      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
-.contain a{
+.banner .contain a{
     color: white;
     margin-left: 30px;
 }
