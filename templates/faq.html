@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ</title>
+    <link rel="stylesheet" href="../static/css/faq.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+<body>
+    <section class="faq-section">
+    <h2 class="title">
+        Frequently Asked Questions (FAQ)
+        <i class='bx  bx-message-minus'  ></i> 
+    </h2>
+    <p>Find quick answers to common questions about vitera's supplements, shipping,<br> returnsand more. if you don't see what you're looking for, our freindly team is just a message away!</p>
+<div class="faq-items">
+        <button class="faq-questions">vitera supplements Safe?<span>+</span></button>
+    <div class="faq-answers">
+        <p>Yes, Vitera supplements are made with natural ingredients and are tested for safety.</p>
+    </div>
+</div>
+<div class="faq-items">
+        <button class="faq-questions">How long until i see Results?<span>+</span></button>
+    <div class="faq-answers">
+        <p>Most customers notice results within a few weeks of consistent use.</p>
+    </div>
+</div>
+<div class="faq-items">
+        <button class="faq-questions">Can i take multiple supplement together?<span>+</span></button>
+    <div class="faq-answers">
+        <p>Yes, but we recommend consulting a healthcare professional before combining supplements.</p>
+    </div>
+</div>
+<div class="faq-items">
+        <button class="faq-questions">Do you ship internationally?<span>+</span></button>
+    <div class="faq-answers">
+        <p>We ship to most countries worldwide. Shipping fees apply.</p>
+    </div>
+</div>
+<div class="faq-items">
+        <button class="faq-questions">What's your return policy?<span>+</span></button>
+    <div class="faq-answers">
+        <p>We offer a 30-day money-back guarantee on all purchases.</p>
+    </div>
+</div>
+<section class="newsletter-section">
+    <div class="newsletter-card">
+        <div class="newsletter-left">
+            <h2>Subscribe to our<br/><span>Newsletter</span></h2>
+            <p>Join the Vitera wellness community and be the first to know about exclusive offers, health tips and product launches. Sign up now to receive 10% off your first order.</p>
+            <form class="subscribe-form" onsubmit="event.preventDefault(); alert('Thanks!');">
+            <input type="email" placeholder="Enter your email here" required />
+            <button type="submit" class="btn">Subscribe</button>
+          </form>
+        </div>
+        <div class="newsletter-right">
+            <img src="../static/images/newsletter-image.jpg" alt="Newsletter Image">
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <img src="../static/images/logo.png" alt="Vitera Logo" class="logo">
+            <p>Revitalize your life Naturally, simply, Everyday</p>
+        </div>
+
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our Product</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                 <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Reviews</a></li>
+                     <li><a href="#">Contacts</a></li>
+                </ul>
+            </div>
+             <div class="footer-column">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contats</h4>
+                <ul>
+                    <li><a href="#">bilongue30@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-credit">
+        <p>@jamesmarcnk work</p>
+    </div>
+</footer>
+    
+
+</section>
+<script>
+  const questions = document.querySelectorAll('.faq-questions');
+
+  questions.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const item = btn.parentElement;
+      item.classList.toggle('active');
+    });
+  });
+</script>
+
+</body>
+</html>
