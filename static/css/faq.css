@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-body{
+
+
+.faq-footer {
     display: block;
     justify-content: center;
     min-height: 100vh;
@@ -12,8 +14,11 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .faq-section{
-    max-width: 700px;
-    margin: auto;
+    background: #f0f0f0;
+    display: block;
+    justify-content: center;
+    max-width: 800px;
+     margin: auto;
 }
 h2.title{
     position: relative;
@@ -90,7 +95,7 @@ p{
 
 @media (max-width:700px){
   .newsletter-card{ 
-    flex-direction:column; 
+    flex-direction: column-reverse; 
 }
   .newsletter-right{ 
     width:100% 
@@ -141,14 +146,13 @@ p{
 }
 .footer{
     background-color: green;
-    width: 100vw;
+    width: 98.5%;
     color: #fff;
     font-family:'segeo UI', sans-serif ;
     padding: 40px 0 24px 0;
     margin: 0;
-    box-sizing: border-box;
-    position: relative;
-    left: 0;
+    
+    
 }
 
 .footer .footer-container{
