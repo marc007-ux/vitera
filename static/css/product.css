@@ -242,5 +242,17 @@
         margin-bottom: 20px;
     }
 
+    .product-section .products .product .card img {
+        height: 250px;
+    }
+
+    .product-section .products .product .card .product-name {
+        font-size: 7rem;
+    }
+    .product-section .products .product .card .product-description {
+        font-size: 0.7rem;
+        padding: 0 10px;
+    }
+
 
 }
