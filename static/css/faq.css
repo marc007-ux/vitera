@@ -271,8 +271,9 @@ p {
         flex-direction: column-reverse;
     }
 
-    .newsletter-right {
-        width: 100%
+    .newsletter-left {
+        padding: 20px 0 0 0;
+        text-align: center;
     }
 
     .footer .footer-container {
@@ -309,6 +310,7 @@ p {
     }
 
     .footer-column h4 {
+        text-align: start;
         margin-bottom: 10px;
         font-size: 1.4rem;
         font-weight: 600;
