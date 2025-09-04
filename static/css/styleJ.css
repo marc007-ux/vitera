@@ -108,3 +108,70 @@
     color: white;
     margin-left: 30px;
 }
+
+/* Responsive styles for .banner */
+@media (max-width: 1200px) {
+    .banner .main {
+        padding: 40px 20px;
+    }
+    .banner .hero .contain h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .banner .navbar {
+        margin-top: 20px;
+    }
+    .banner .hero .contain h1 {
+        font-size: 2rem;
+    }
+    .banner .hero .contain p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner {
+        padding: 10px;
+    }
+    .banner .main {
+        padding: 20px 5px;
+    }
+    .banner .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner .logo img {
+        width: 120px;
+        height: auto;
+    }
+    .banner .navbar .navlink {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .banner .order {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .banner .hero .contain {
+        padding: 10px;
+        text-align: center;
+    }
+    .banner .hero .contain h1 {
+        font-size: 1.5rem;
+    }
+    .banner .hero .contain p {
+        font-size: 0.95rem;
+    }
+    .banner .hero .contain button,
+    .banner .hero .contain a {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
