@@ -76,6 +76,7 @@ p {
 }
 
 .newsletter-section {
+    padding: 20px;
     margin: 36px 0 80px;
 }
 
@@ -262,9 +263,7 @@ p {
 }
 
 @media (max-width:480px) {
-    .faq-section {
-        padding: 0 20px;
-    }
+    
 
 
     .newsletter-card {
