@@ -237,6 +237,13 @@
 }
 
 @media (max-width: 480px) {
+
+    .product-section .hero .text p {
+        width: 70%;
+        font-size: 0.6rem;
+        line-height: normal;
+        text-align: start;
+    }
     .product-section .products .product .card {
         width: 100%;
         margin-bottom: 20px;
@@ -247,10 +254,10 @@
     }
 
     .product-section .products .product .card .product-name {
-        font-size: 7rem;
+        font-size: 1rem;
     }
     .product-section .products .product .card .product-description {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding: 0 10px;
     }
 
