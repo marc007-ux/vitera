@@ -272,10 +272,7 @@ p {
         flex-direction: column-reverse;
     }
 
-    .newsletter-left {
-        padding:0 25px ;
-    }
-
+    
     .footer .footer-container {
         padding: 20px;
         flex-direction: column;
