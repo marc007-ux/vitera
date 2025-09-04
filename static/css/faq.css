@@ -272,8 +272,7 @@ p {
     }
 
     .newsletter-left {
-        padding: 20px 0 0 0;
-        text-align: center;
+        padding: 25px 0 ;
     }
 
     .footer .footer-container {
@@ -296,21 +295,28 @@ p {
 
     }
     .footer-columns {
+        padding: 10px 0;
         flex-wrap: wrap;
         gap: 24px;
-        align-items: center;
-        text-align: center;
+
     }
 
     .footer-column {
-        align-items: center;
         text-align: start;
         min-width: 120px;
         width: 45%;
     }
 
-    .footer-column h4 {
+    .footer-column:nth-child(odd) {
         text-align: start;
+    }
+
+    .footer-column:nth-child(even) {
+        text-align: end;
+    }
+
+
+    .footer-column h4 {
         margin-bottom: 10px;
         font-size: 1.4rem;
         font-weight: 600;
