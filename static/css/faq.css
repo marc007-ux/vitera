@@ -288,28 +288,35 @@ p {
     }
 
     .footer-brand p {
-        font-size: 2rem;
-        line-height: 1.6;
+        font-size: 1.2rem;
+        line-height: 1.2;
         max-width: 100%;
         margin-bottom: 20px;
 
     }
     .footer-columns {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 24px;
         align-items: center;
         text-align: center;
     }
 
+    .footer-column {
+        align-items: center;
+        text-align: start;
+        min-width: 120px;
+        width: 45%;
+    }
+
     .footer-column h4 {
         margin-bottom: 10px;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         font-weight: 600;
         color: #fff;
     }
 
-    .footer-column h4 a {
-        font-size: 1.2rem;
+    .footer-column a {
+        font-size: 1.rem;
     }
 
 
